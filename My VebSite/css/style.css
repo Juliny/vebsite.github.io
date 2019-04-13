@@ -1,0 +1,36 @@
+/* Header, footer */
+
+header, footer {
+  background-color:#ff87e7;
+}
+/*menu*/
+#nav{
+	padding: 10px 0 5px 0;
+	text-align: center;
+	list-style-type: none;
+	font-family: Arvo,serif;
+	font-size: 22px;
+	text-transform: uppercase;
+
+}
+#nav li{
+	display:inline;
+	margin-left: 10px;
+}
+#nav a{
+	text-decoration: none;
+	color: #d9dada;
+	padding: 5px 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+#nav a:hover{
+	background: #0066ff;
+	color: #000033;
+	border-radius: 20px 5px;
+}
+h1{
+	text-align: center;
+	background-color: #FFC0CB;
+	color: #4B0082;
+}
